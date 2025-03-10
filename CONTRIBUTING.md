@@ -12,7 +12,7 @@ To contribute to this project, please follow these steps:
 4. **Test Your Changes**: Verify that your changes work as expected and do not break existing functionality.
 5. **Submit a Pull Request (PR)**: Provide a clear description of your changes in the PR, including any relevant issue numbers.
 
-For bug reports, feature requests, or questions, please open an issue on the [GitHub Issues page](https://github.com/oliviersaidi/pacf-framework/issues).
+For bug reports, feature requests, or questions, please open an issue on the [GitHub Issues page](https://github.com/oliviersaidi/pacf-framework/issues). We have provided issue templates to help you include all necessary information when reporting bugs or requesting features.
 
 ## Coding Standards
 
