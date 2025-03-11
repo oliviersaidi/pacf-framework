@@ -25,7 +25,8 @@ pacf_v1.0/
 
 ## ZENODO DOI
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15000490.svg)](https://doi.org/10.5281/zenodo.15000490)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15000490.svg)](https://doi.org/10.5281/zenodo.15006676
+Mar 11, 2025)
 
 **DOI:** [10.5281/zenodo.15000490](https://doi.org/10.5281/zenodo.15000490)
 
