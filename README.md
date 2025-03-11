@@ -27,7 +27,7 @@ pacf_v1.0/
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15000490.svg)](https://doi.org/10.5281/zenodo.15000490)
 
-**DOI:** [10.5281/zenodo.15000490](https://doi.org/10.5281/zenodo.15000490)
+**DOI:** [DOI: 10.5281/zenodo.15006676](https://doi.org/10.5281/zenodo.15006676)
 
 ## REQUIREMENTS
 
