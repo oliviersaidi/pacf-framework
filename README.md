@@ -101,8 +101,8 @@ Follow these steps in your terminal to set up the environment:
 
 ...
 
-## Code Availability
-The source code is available on:
+## Research Publication
+Thepublication is available on:
 - HAL: [https://hal.science/oliviersaidi](https://hal.science/oliviersaidi)
 - Zenodo: [https://doi.org/10.5281/zenodo.15006676](https://doi.org/10.5281/zenodo.15006676)
 - GitHub: [https://github.com/oliviersaidi/pacf-framework](https://github.com/oliviersaidi/pacf-framework)
