@@ -2,7 +2,7 @@
 
 # MIT License
 #
-# Copyright (c) 2005 Olivier Saidi
+# Copyright (c) 2025 Olivier Saidi
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -95,13 +95,6 @@ This optimized script implements:
 - Performance testing tools for benchmarking
 - All original features with improved documentation and performance monitoring
 
-Version 3.0 includes the following improvements over v2:
-- Enhanced 2-Opt performance through improved pruning strategies and smarter swap selection
-- Distance matrix caching to avoid redundant calculations
-- Better parallel processing with optimized workload distribution
-- Early termination criteria based on time limits and diminishing returns
-- Addition of 3-Opt solver for better solution quality on small to medium instances
-- Performance testing tools for benchmarking
 
 Usage:
 - Run TSP analysis: python script.py path/to/tsp_file.tsp
@@ -139,7 +132,13 @@ from collections import defaultdict, deque  # Specialized container datatypes
 from datetime import datetime, timedelta  # Date and time manipulation
 
 # Hardware acceleration imports (for potential GPU/MPS use)
-import torch                      # PyTorch for hardware acceleration when available
+try:
+    import torch                  # PyTorch for hardware acceleration when available
+    TORCH_AVAILABLE = True
+except ImportError:
+    TORCH_AVAILABLE = False
+    import logging
+    logging.getLogger(__name__).warning("PyTorch not available. Hardware acceleration disabled.")
 
 # ML imports for meta-learning (used for adaptive solver selection)
 from sklearn.ensemble import RandomForestRegressor  # Machine learning for prediction
