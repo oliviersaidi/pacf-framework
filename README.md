@@ -1,5 +1,10 @@
 # PATTERN-AWARE COMPLEXITY FRAMEWORK (PACF) v1.0
 
+[![CI](https://github.com/oliviersaidi/pacf-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/oliviersaidi/pacf-framework/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15006676.svg)](https://doi.org/10.5281/zenodo.15006676)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org)
+
 The TSP data used in this work is from [TSPLIB - University of Heidelberg](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/), which is freely available for research purposes.
 
 ## OVERVIEW
@@ -25,7 +30,7 @@ pacf_v1.0/
 
 ## ZENODO DOI
 
-![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15000490.svg)
+See badge at top, or visit: [https://doi.org/10.5281/zenodo.15006676](https://doi.org/10.5281/zenodo.15006676)
 
 ## REQUIREMENTS
 
