@@ -1,9 +1,11 @@
 # PATTERN-AWARE COMPLEXITY FRAMEWORK (PACF) v1.0
 
 [![CI](https://github.com/oliviersaidi/pacf-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/oliviersaidi/pacf-framework/actions/workflows/ci.yml)
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.15006676.svg)](https://zenodo.org/records/15006676)
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18924030.svg)](https://zenodo.org/records/18924030)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org)
+
+> 📄 **Paper**: [Bridging Pattern-Aware Complexity with NP-Hard Optimization: A Unifying Framework and Empirical Study](https://doi.org/10.5281/zenodo.15006676) — Olivier Saidi, 2025
 
 The TSP data used in this work is from [TSPLIB - University of Heidelberg](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/), which is freely available for research purposes.
 
