@@ -17,18 +17,26 @@ Developed and tested on a **MacBook Pro M3 Max running macOS 26.3.1**, the frame
 
 ## DIRECTORY STRUCTURE
 
-The `pacf_v1.0/` directory contains all essential files and folders for running the framework:
+```
+pacf-framework/
+├── PACF_v1.py            # Main script
+├── requirements.txt      # Python dependencies (pip install -r requirements.txt)
+├── test_pacf.py          # Smoke tests
+├── TSP_instances/        # 24 TSPLIB benchmark instances (ready to use)
+├── .github/
+│   ├── workflows/
+│   │   └── ci.yml        # CI: Python 3.9 + 3.11 on every push/PR
+│   └── ISSUE_TEMPLATE/
+├── LICENSE
+├── README.md
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+└── SECURITY.md
+```
 
-pacf_v1.0/
-├── PACF_v1.py         # Main script
-├── tsp_instances/     # Directory for TSP benchmark instances
-├── results/           # Suggested output directory (see Usage for details)
-├── requirements.txt   # Python dependencies
-└── README.txt         # This file
-
-
-- **`tsp_instances/`**: Place TSP files here (e.g., download from TSPLIB).
-- **`results/`**: A suggested directory for outputs. For **single TSP file analysis**, outputs are saved in the same directory as the input TSP file. For **experiments**, outputs are saved to the current working directory unless `--output-dir` is specified.
+- **`PACF_v1.py`**: Single-file framework — run directly, no installation beyond `requirements.txt`.
+- **`TSP_instances/`**: 24 benchmark instances from TSPLIB, ready to use out of the box.
+- **Outputs**: For single-file analysis, saved alongside the input `.tsp` file. For experiments, saved to the current working directory unless `--output-dir` is specified.
 
 ## ZENODO DOI
 
