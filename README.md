@@ -39,10 +39,6 @@ pacf-framework/
 - **`TSP_instances/`**: 24 benchmark instances from TSPLIB, ready to use out of the box.
 - **Outputs**: For single-file analysis, saved alongside the input `.tsp` file. For experiments, saved to the current working directory unless `--output-dir` is specified.
 
-## ZENODO DOI
-
-See badge at top, or visit: [https://doi.org/10.5281/zenodo.15006676](https://zenodo.org/records/15006676)
-
 ## REQUIREMENTS
 
 ### Software
@@ -67,53 +63,46 @@ Install these for additional features:
 - **psutil**: Memory usage monitoring (optional for performance tracking).
   - `pip install psutil`
 
-### Development Environment
-- Developed on a **MacBook Pro M3 Max, macOS 26.3.1**.
-- Tested with Python 3.11, but 3.8+ should suffice.
-- Uses standard library modules: `os`, `time`, `math`, `json`, `logging`, `argparse`, `random`, `multiprocessing`, etc.
 
 ## INSTALLATION
 
 Follow these steps in your terminal to set up the environment:
 
-1. **Download the Project Files**
-   - Go to the arXiv page for the paper “Bridging Pattern-Aware Complexity with NP-Hard Optimization: A Unifying Framework and Empirical Study.”
-   - Download the ancillary files (e.g., `pacf_v1.0.zip`) from the submission.
-   - Extract the ZIP file to a local directory (e.g., `pacf_v1.0/`).
-
-2. **Navigate to the Directory**
+1. **Clone the Repository**
    ```bash
-   cd pacf_v1.0
+   git clone https://github.com/oliviersaidi/pacf-framework.git
+   cd pacf-framework
    ```
 
-3. **Install Python (if not installed)**
+2. **Install Python (if not installed)**
    - Ensure Python 3.8 or higher is installed. On macOS, use `brew install python@3.11` or download from [python.org](https://www.python.org). Verify with `python3 --version`.
 
-4. **Create a Virtual Environment** (Recommended)
+3. **Create a Virtual Environment** (Recommended)
    ```bash
    python3 -m venv pacf_env
    ```
 
-5. **Activate the Virtual Environment**
+4. **Activate the Virtual Environment**
    - macOS/Linux: `source pacf_env/bin/activate`
    - Windows: `pacf_env\Scripts\activate`
 
-6. **Install Required Dependencies**
+5. **Install Dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-7. **Install Optional Dependencies** (as needed)
+6. **Install Optional Dependencies** (as needed)
    - For hardware acceleration: `pip install torch`
    - For genetic sequences: `pip install biopython`
    - For weather data: `pip install xarray scipy`
    - For memory monitoring: `pip install psutil`
 
-8. **Verify Setup**
-   - Run: `python PACF_v1.py --version`
-   - Expected output: `PACF v1.0`
+7. **Verify Setup**
+   ```bash
+   python PACF_v1.py --version          # → PACF v1.0
+   python PACF_v1.py TSP_instances/berlin52.tsp
+   ```
 
-...
 
 ## Research Publication
 - arXiv: [https://arxiv.org/abs/2506.13810](https://arxiv.org/abs/2506.13810) (cs.AI)
@@ -125,8 +114,13 @@ Follow these steps in your terminal to set up the environment:
 ## Citation
 ```bibtex
 @misc{saidi2025bridging,
-   title={Bridging Pattern-Aware Complexity with NP-Hard Optimization: A Unifying Framework and Empirical Study},
-   author={Saidi, Olivier},
-   year={2025}
+   title        = {Bridging Pattern-Aware Complexity with NP-Hard Optimization: A Unifying Framework and Empirical Study},
+   author       = {Saidi, Olivier},
+   year         = {2025},
+   eprint       = {2506.13810},
+   archivePrefix= {arXiv},
+   primaryClass = {cs.AI},
+   doi          = {10.48550/arXiv.2506.13810},
+   url          = {https://arxiv.org/abs/2506.13810}
 }
 ```
