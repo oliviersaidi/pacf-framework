@@ -1,7 +1,7 @@
 # PATTERN-AWARE COMPLEXITY FRAMEWORK (PACF) v1.0
 
 [![CI](https://github.com/oliviersaidi/pacf-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/oliviersaidi/pacf-framework/actions/workflows/ci.yml)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15006676.svg)](https://doi.org/10.5281/zenodo.15006676)
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.15006676.svg)](https://zenodo.org/records/15006676)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org)
 
@@ -30,7 +30,7 @@ pacf_v1.0/
 
 ## ZENODO DOI
 
-See badge at top, or visit: [https://doi.org/10.5281/zenodo.15006676](https://doi.org/10.5281/zenodo.15006676)
+See badge at top, or visit: [https://doi.org/10.5281/zenodo.15006676](https://zenodo.org/records/15006676)
 
 ## REQUIREMENTS
 
@@ -107,7 +107,7 @@ Follow these steps in your terminal to set up the environment:
 ## Research Publication
 Thepublication is available on:
 - HAL: [https://hal.science/oliviersaidi](https://hal.science/oliviersaidi)
-- Zenodo: [https://doi.org/10.5281/zenodo.15006676](https://doi.org/10.5281/zenodo.15006676)
+- Zenodo: [https://doi.org/10.5281/zenodo.15006676](https://zenodo.org/records/15006676)
 - GitHub: [https://github.com/oliviersaidi/pacf-framework](https://github.com/oliviersaidi/pacf-framework)
 
 
