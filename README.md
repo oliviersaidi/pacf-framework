@@ -6,7 +6,7 @@ The TSP data used in this work is from [TSPLIB - University of Heidelberg](http:
 
 The **Pattern-Aware Complexity Framework (PACF)** is a Python-based framework designed to analyze and exploit structural patterns in NP-hard optimization problems, such as the Traveling Salesman Problem (TSP), genetic sequence alignment, and weather forecasting. By identifying patterns like symmetry, clustering, and repetition, PACF reduces computational complexity and enhances solver performance. This implementation focuses on TSP but is extensible to other domains with optional dependencies.
 
-Developed and tested on a **MacBook Pro M3 Max running macOS 15.3.1**, the framework should work across platforms (macOS, Linux, Windows) with the appropriate setup.
+Developed and tested on a **MacBook Pro M3 Max running macOS 26.3.1**, the framework should work across platforms (macOS, Linux, Windows) with the appropriate setup.
 
 ## DIRECTORY STRUCTURE
 
@@ -52,7 +52,7 @@ Install these for additional features:
   - `pip install psutil`
 
 ### Development Environment
-- Developed on a **MacBook Pro M3 Max, macOS 15.3.1**.
+- Developed on a **MacBook Pro M3 Max, macOS 26.3.1**.
 - Tested with Python 3.11, but 3.8+ should suffice.
 - Uses standard library modules: `os`, `time`, `math`, `json`, `logging`, `argparse`, `random`, `multiprocessing`, etc.
 
@@ -105,7 +105,7 @@ Thepublication is available on:
 - Zenodo: [https://doi.org/10.5281/zenodo.15006676](https://doi.org/10.5281/zenodo.15006676)
 - GitHub: [https://github.com/oliviersaidi/pacf-framework](https://github.com/oliviersaidi/pacf-framework)
 
-An arXiv submission is planned once the author’s account is validated.
+
 
 ## Citation
 ```bibtex
