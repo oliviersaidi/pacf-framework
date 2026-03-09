@@ -3,10 +3,11 @@
 [![CI](https://github.com/oliviersaidi/pacf-framework/actions/workflows/ci.yml/badge.svg)](https://github.com/oliviersaidi/pacf-framework/actions/workflows/ci.yml)
 [![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.18924030.svg)](https://zenodo.org/records/18924030)
 [![arXiv](https://img.shields.io/badge/arXiv-2506.13810-b31b1b.svg)](https://arxiv.org/abs/2506.13810)
+[![Cambridge Open Engage](https://img.shields.io/badge/Cambridge%20Open%20Engage-preprint-003b5c.svg)](https://doi.org/10.33774/coe-2026-qndkw)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org)
 
-> 📄 **Paper**: [Bridging Pattern-Aware Complexity with NP-Hard Optimization: A Unifying Framework and Empirical Study](https://arxiv.org/abs/2506.13810) — Olivier Saidi, 2025 · arXiv:2506.13810 [cs.AI]
+> 📄 **Paper**: [Bridging Pattern-Aware Complexity with NP-Hard Optimization: A Unifying Framework and Empirical Study](https://arxiv.org/abs/2506.13810) — [Olivier Saidi, 2025 · arXiv:2506.13810 \[cs.AI\]](https://arxiv.org/abs/2506.13810)
 
 The TSP data used in this work is from [TSPLIB - University of Heidelberg](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/), which is freely available for research purposes.
 
@@ -106,6 +107,7 @@ Follow these steps in your terminal to set up the environment:
 
 ## Research Publication
 - arXiv: [https://arxiv.org/abs/2506.13810](https://arxiv.org/abs/2506.13810) (cs.AI)
+- Cambridge Open Engage: [https://doi.org/10.33774/coe-2026-qndkw](https://doi.org/10.33774/coe-2026-qndkw)
 - Zenodo: [https://doi.org/10.5281/zenodo.15006676](https://zenodo.org/records/15006676)
 - GitHub: [https://github.com/oliviersaidi/pacf-framework](https://github.com/oliviersaidi/pacf-framework)
 
@@ -121,6 +123,7 @@ Follow these steps in your terminal to set up the environment:
    archivePrefix= {arXiv},
    primaryClass = {cs.AI},
    doi          = {10.48550/arXiv.2506.13810},
-   url          = {https://arxiv.org/abs/2506.13810}
+   url          = {https://arxiv.org/abs/2506.13810},
+   note         = {Also available at Cambridge Open Engage: \url{https://doi.org/10.33774/coe-2026-qndkw}}
 }
 ```
