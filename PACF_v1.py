@@ -219,33 +219,33 @@ def memory_usage():
 # Only detect and log hardware info in the main process to avoid duplication
 if not IS_WORKER_PROCESS:
     # Check for available hardware acceleration (CUDA GPU or Apple Metal)
-    if torch.cuda.is_available():
+    if TORCH_AVAILABLE and torch.cuda.is_available():
         DEVICE = torch.device("cuda")
         logger.info(f"Using CUDA for acceleration (Device: {torch.cuda.get_device_name(0)})")
-    elif hasattr(torch, 'backends') and hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+    elif TORCH_AVAILABLE and hasattr(torch, 'backends') and hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
         DEVICE = torch.device("mps")
         logger.info("Using Apple Metal for acceleration")
     else:
-        DEVICE = torch.device("cpu")
-        logger.info("No GPU/MPS available, using CPU")
-        
+        DEVICE = None  # No torch available or no GPU
+        logger.info("No hardware acceleration available, using CPU")
+
     # Determine optimal number of workers for parallel processing
     NUM_CORES = cpu_count()
     logger.info(f"Detected {NUM_CORES} CPU cores for parallel processing")
-    
+
     # Log available memory
     mem_usage = memory_usage()
     if mem_usage > 0:
         logger.info(f"Available memory: {mem_usage:.2f} MB")
 else:
     # For worker processes, just set the device without logging
-    if torch.cuda.is_available():
+    if TORCH_AVAILABLE and torch.cuda.is_available():
         DEVICE = torch.device("cuda")
-    elif hasattr(torch, 'backends') and hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
+    elif TORCH_AVAILABLE and hasattr(torch, 'backends') and hasattr(torch.backends, 'mps') and torch.backends.mps.is_available():
         DEVICE = torch.device("mps")
     else:
-        DEVICE = torch.device("cpu")
-        
+        DEVICE = None
+
     # Just use the core count without logging
     NUM_CORES = cpu_count()
     
